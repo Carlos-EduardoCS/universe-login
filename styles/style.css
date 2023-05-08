@@ -32,11 +32,13 @@ body{
     background-color: #ffffff;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.137);
 
+    border: 1px solid rgba(0, 0, 0, 0.253);
+
     padding: 20px;
     padding-top: 30px;
 
-    height: 70%;
-    width: 60%;
+    height: 85%;
+    width: 80%;
 
 
     top: 48%;
@@ -46,7 +48,7 @@ body{
 }
 
 .login-infos{
-    margin-left: 65px;
+    margin-left: 55px;
 }
 
 .ttl{
