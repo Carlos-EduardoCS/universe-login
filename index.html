@@ -4,27 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    
     <title>Welcome to the Universe</title>
 </head>
 <body>
     <div class="login">
-        <img class="logo1" src="imgs/Vector.png" alt="">
-        <h1 class="ttl">
-            Login
-        </h1>
+       <a href="#">
+        <img src="imgs/Vector.png" alt="">
+       </a>
 
-        <p>
-            Faça login para ter a melhor experiência
-            intergaláctica possível!
-        </p>
-        
-        <form action="login.php">
-            <input type="email" name="login" id="ilogin" placeholder="Seu email" required autocomplete="email" maxlength="30">                  
-            <label for="ilogin">
+        <div class="login-infos">
+            <h1 class="ttl">
                 Login
-            </label>
-        </form>
+            </h1>
+            <p class="prg">
+                Faça login para ter a melhor experiência
+                intergaláctica possível!
+            </p>
+
+            <div class="reds">
+                <div class="google">
+                    <a href="">
+                        <i class="fa-brands fa-google fa-xl" style="color: #ffffff;"></i>
+                    </a>
+                </div>
+
+                <div class="apple">
+                    <a href="">
+                        <i class="fa-brands fa-apple fa-xl" style="color: #ffffff;"></i>
+                    </a>
+                </div>
+
+                <div class="facebook">
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f fa-xl" style="color: #ffffff;"></i>
+                    </a>
+                </div>
+
+            </div>
+            
+            <form action="login.php">
+                    <label for="ilogin">
+                        email
+                    </label> <br>
+                <div class="ilog">    
+                    <input type="email" name="login" id="ilogin" placeholder="Seu email" required autocomplete="email" maxlength="30">
+                </div>
+
+                <br>
+
+                <div class="isen">
+                    
+                    <label for="isenha">
+                        Senha
+                    </label> <br>
+                    <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="8" maxlength="30">
+                </div>
+
+                <br>
+
+                <div class="enviar">
+                     <div class="forgt">
+                         <div class="check">
+                            <input type="checkbox">
+                        <span class="spn">
+                            Lembrar-me
+                        </span>
+                        </div>
+
+                        <p>
+                            <a href="#">
+                                Esqueci a senha
+                            </a>
+                        </p>
+                     </div>
+
+                    <div class="subm">
+                       <!-- <input type="submit"> -->
+                       <button>Fazer login</button>
+                        <br>
+                    </div>
+                   
+                </div>
+            </form>
+        </div>
     </div>
     
 </body>

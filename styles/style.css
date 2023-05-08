@@ -14,32 +14,148 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
+body{
+    background-color: #6B52EA;
+}
+
+
 .logo1{
-    background-color: white;
+   
 }
 
 .login{
     position: absolute;
 
-    background-color: #fff;
-    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.534);
+    background-color: #ffffff;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.137);
 
     padding: 20px;
     padding-top: 30px;
 
-    height: 60%;
+    height: 70%;
     width: 60%;
 
 
-    top: 50%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
 
+.login-infos{
+    margin-left: 65px;
+}
+
 .ttl{
     color: #2F2E41;
 
+}
+
+.prg{
+    color: #CCCCCC;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.reds{
+
+}
+
+.google{
+    display: inline-block;
+    background-color: #6B52EA;
+    border-radius: 5px;
+    padding: 5px;
+
+    margin-bottom: 25px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
+}
+
+.apple{
+    display: inline-block;
+    background-color: #6B52EA;
+    border-radius: 5px;
+    padding: 5px;
+
+    width: 35px;
+
+
+    margin-bottom: 25px;
+    margin-left: 5px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
+
+}
+
+.facebook{
+    display: inline-block;
+    background-color: #6B52EA;
+    border-radius: 5px;
+    padding: 5px;
+
+    width: 35px;
+
+    margin-bottom: 25px;
+    margin-left: 5px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
+    
+}
+
+form > .ilog [type=email]{
+    background-color: #F7F7F7;
+    padding: 9px;
+    width: 40vw;
+    border: none;
+    border-radius: 5px;
+
+}
+
+form > .ilog [type=email]:hover {
+    background-color: #e6e6e6;
+}
+
+form > .isen [type=password]{
+    background-color: #F7F7F7;
+    padding: 9px;
+    width: 40vw;
+    border: none;
+    border-radius: 5px;
+
+}
+
+form > .isen [type=password]:hover {
+    background-color: #e6e6e6;
+}
+
+form > .enviar > .forgt{
+    display: inline-block;
+    font-size: 15px;
+
+}
+form > .enviar > .forgt > .check > [type=checkbox]{
+    padding: 100px;
+}
+
+
+form > .enviar > .forgt > p > a{
+    display: inline-block;
+    font-size: 15px;
+    color: #6B52EA;
+    text-decoration: none;
+}
+
+form > .enviar > .forgt > p > a:hover{
+    color: #4b36b1;
+    text-decoration: underline;
+}
+
+form > .subm > [type=button] {
+    background-color: #4b36b1;
+    
 }
