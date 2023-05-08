@@ -56,6 +56,10 @@ body{
 
 }
 
+.pingo{
+    display: none;
+}
+
 .prg{
     color: #CCCCCC;
     margin-top: 30px;

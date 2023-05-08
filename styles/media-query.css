@@ -7,6 +7,6 @@
 
 /*  DESKTOP VERSION */
 
-@media screen and (man-width: 420px){
+@media screen and (man-width: 360px) and (max-widhh: 992px) {
     
 }
