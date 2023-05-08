@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+/* MOBILE FIRST */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo1{
+    background-color: white;
+}
+
+.login{
+    position: absolute;
+
+    background-color: #fff;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.534);
+
+    padding: 20px;
+    padding-top: 30px;
+
+    height: 60%;
+    width: 60%;
+
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.ttl{
+    color: #2F2E41;
+
+}
