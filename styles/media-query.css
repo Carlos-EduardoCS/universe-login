@@ -7,6 +7,82 @@
 
 /*  DESKTOP VERSION */
 
-@media screen and (man-width: 360px) and (max-widhh: 992px) {
+@media screen and (min-width: 992px){
+    .login{
+        position: absolute;
     
+        background-color: #ffffff;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.137);
+    
+        border: 1px solid rgba(0, 0, 0, 0.253);
+    
+        padding: 20px;
+        padding-top: 30px;
+
+        margin-top: 10px;
+        border-radius: 7px;
+        
+    
+        height: 93%;
+        width: 80%;
+    
+    
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+
+    button{
+        position: absolute;
+        top: 475px;
+        width: 175px;
+
+
+    }
+
+    .fazerconta{
+       position: absolute;
+       top: 530px;
+    }
+    
+
+    form > .enviar > .forgt > p > a{
+        position: absolute;
+        display: inline-block;
+        font-size: 15px;
+        color: #6B52EA;
+        text-decoration: underline;
+    
+        font-weight: bold;
+    
+        top: 438px;
+        left: 330px;
+    
+    }
+
+    .pingo{
+        display: block;
+        position: absolute;
+        background-color: #6B52EA ;
+        box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.137);
+        
+        height: 581px;
+        width: 500px;
+
+        padding-top: 25px ;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+
+        left: 600px;
+        top: -1px;
+    }
+
+    .fazerconta{
+        margin-top: 16px;
+    
+    }
+
+
 }
