@@ -84,5 +84,32 @@
     
     }
 
+    form > .ilog [type=email]{
+        background-color: #F7F7F7;
+        padding: 9px;
+        width: 37vw;
+        border: none;
+        border-radius: 5px;
+    
+    }
+    
+    form > .ilog [type=email]:hover {
+        background-color: #e6e6e6;
+    }
+    
+    form > .isen [type=password]{
+        background-color: #F7F7F7;
+        padding: 9px;
+        width: 37vw;
+        border: none;
+        border-radius: 5px;
+    
+    }
+    
+    form > .isen [type=password]:hover {
+        background-color: #e6e6e6;
+
+
+    }
 
 }
