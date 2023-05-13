@@ -8,28 +8,28 @@
 /*  DESKTOP VERSION */
 
 @media screen and (min-width: 992px){
+    body{
+        background-color: #6B52EA;
+    }
     .login{
         position: absolute;
     
         background-color: #ffffff;
-        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.137);
     
-        border: 1px solid rgba(0, 0, 0, 0.253);
     
-        padding: 20px;
+        padding: 30px;
         padding-top: 30px;
 
         margin-top: 10px;
-        border-radius: 7px;
+        
         
     
-        height: 93%;
-        width: 80%;
+        height: 100%;
+        width: 50vw;
     
     
-        top: 48%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 48.5%;
+        left: 30%;
     
     }
 
@@ -38,12 +38,14 @@
         top: 475px;
         width: 175px;
 
+        margin-top: 40px;
+
 
     }
 
     .fazerconta{
-       position: absolute;
-       top: 530px;
+        position: absolute;
+        top: 560px;
     }
     
 
@@ -65,18 +67,22 @@
         display: block;
         position: absolute;
         background-color: #6B52EA ;
-        box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.137);
         
-        height: 581px;
-        width: 500px;
+        height: 100vh;
+        width: 40vw;
 
-        padding-top: 25px ;
+        padding-top: 50px ;
         padding-right: 50px;
         padding-left: 50px;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
 
-        left: 600px;
-        top: -1px;
+        left: 700px;
+        top: -2px;
+    }
+
+    .sub-pingo{
+        background-color: #6B52EA;
+        
     }
 
     .fazerconta{
@@ -111,5 +117,13 @@
 
 
     }
+
+    .check{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        
+    }
+
 
 }
